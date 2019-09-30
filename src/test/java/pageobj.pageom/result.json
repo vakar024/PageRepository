@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T08:10:33.363Z",
+        "line": 6,
+        "name": "Sucessful purchase",
+        "description": "",
+        "id": "end-to-end-scenerio-for-testmeapp;sucessful-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18721345600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on home page",
+            "match": {
+              "location": "pagedef.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7039430000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username and password and clicks on the login button",
+            "match": {
+              "location": "pagedef.b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1378697400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to all categories -electronics and headphone",
+            "match": {
+              "location": "pagedef.c()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2835036200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add product into shopping cart and checkout",
+            "match": {
+              "location": "pagedef.d()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6428236500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select bank and add credentials",
+            "match": {
+              "location": "pagedef.e()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Sign Out]\u003e but was:\u003c[Home]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat pageobj.pageom.pagedef.f(pagedef.java:79)\r\n\tat ✽.Redirected to thank you page(classpath:pageobj/pageom/pagefeat.feature:12)\r\n",
+              "duration": 454705900,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Redirected to thank you page",
+            "match": {
+              "location": "pagedef.f()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteProcess"
+          }
+        ]
+      }
+    ],
+    "name": "End to End scenerio for TestMeApp",
+    "description": "  Login with an account and purchase and complete the payment process",
+    "id": "end-to-end-scenerio-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:pageobj/pageom/pagefeat.feature",
+    "tags": []
+  }
+]
