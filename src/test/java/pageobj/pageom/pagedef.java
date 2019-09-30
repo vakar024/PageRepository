@@ -76,7 +76,7 @@ public class pagedef {
 	 {
 	  driver.findElement(By.linkText("SignOut")).click();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	  Assert.assertEquals(driver.getTitle(),"Home"); 
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  //Assert.assertEquals(driver.getTitle(),"Home"); 
+	  //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 }
 }

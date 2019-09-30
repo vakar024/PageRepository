@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-09-30T08:10:33.363Z",
+        "start_timestamp": "2019-09-30T08:29:45.977Z",
         "line": 6,
         "name": "Sucessful purchase",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18721345600,
+              "duration": 17965172600,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 7039430000,
+              "duration": 7862057400,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1378697400,
+              "duration": 1630411500,
               "status": "passed"
             },
             "line": 9,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 2835036200,
+              "duration": 3634380800,
               "status": "passed"
             },
             "line": 10,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 6428236500,
+              "duration": 8339451500,
               "status": "passed"
             },
             "line": 11,
@@ -73,9 +73,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Sign Out]\u003e but was:\u003c[Home]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat pageobj.pageom.pagedef.f(pagedef.java:79)\r\n\tat ✽.Redirected to thank you page(classpath:pageobj/pageom/pagefeat.feature:12)\r\n",
-              "duration": 454705900,
-              "status": "failed"
+              "duration": 463679000,
+              "status": "passed"
             },
             "line": 12,
             "name": "Redirected to thank you page",
